@@ -22,6 +22,13 @@ Using Python to create a Line Bot script with ChatGPT from OpenAI.
 
 ## How to Use?
 
+#### 0. Setup
+Suggest for create a `venv` by virtualenv
+```
+git clone https://github.com/bearman514/line-bot-with-chatgpt.git
+pip install -r requirements.txt
+```
+
 #### 1. Get Tokens
 
 - Login in LINE Developers
