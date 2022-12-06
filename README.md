@@ -8,16 +8,16 @@ Using Python to create a Line Bot script with ChatGPT from OpenAI.
 ## Table of Contents
 - [Screenshots](#screenshots)
 - [How to Use?](#how-to-use)
-    - [Get Tokens ](#dev-local)
-    - [Modify config](#dev-local)
-    - [Run Flask](#dev-local)
-    - [Deploy](#dev-local)
-    - [Start to chat!](#dev-local)
+    - [Get Tokens ](#1-get-tokens)
+    - [Modify config](#2-modify-config)
+    - [Run Flask](#3-run-flask)
+    - [Deploy](#4-deploy)
+    - [Start to chat!](#5-start-to-chat)
 - [Reference](#reference)
 
 ## Screenshots
 
-![screenshots.jpg](images\screenshot.jpg)
+![screenshots.jpg](https://github.com/bearman514/line-bot-with-chatgpt/blob/main/images/screenshot.jpg)
 
 ## How to Use?
 
@@ -38,4 +38,4 @@ Using Python to create a Line Bot script with ChatGPT from OpenAI.
 - LineBot
     - [LINE Developers](https://developers.line.biz/en/)
 - Deployment
-    - [Install ngrok](https://ngrok.com/download)ej/
+    - [Install ngrok](https://ngrok.com/download)
