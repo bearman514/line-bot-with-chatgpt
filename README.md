@@ -36,18 +36,23 @@ Using Python to create a Line Bot script with ChatGPT from OpenAI.
 
 #### 3. Run Flask
 - Localhost with port 5000
-```python .\app.py```
+    ```python .\app.py```
 
 #### 4. Deploy
-- If your have public IP, deploy with it!  (I suppose you know how to do it.)
+- If you have public IP, deploy with it!  (I suppose you know how to do it.)
 - If not, try to use `ngrok` for getting LINE Bot `Webhook`.
     - [Install ngrok](https://ngrok.com/download)
     - Add authtoken (Sign up on ngrok to get the token)
         `ngrok config add-authtoken <token>`
     - Start a tunnel
         `ngrok http 5000`
-    - Get the URL from ngrok be the LINE Bot `Webhook`
-        - Maybe can see on the ngrok website. (Cloud Edge > Endpoints)
+    - Paste the URL from ngrok to LINE Bot `Webhook URL` 
+        - ngrok 
+            - Find URL (Cloud Edge > Endpoints)
+        - LINE Developers
+            - Find the place `Webhook URL` (Messaging API > Webhook settings > Webhook URL)
+            - Paste `https://<the-link-from-ngrok>/callback`
+            - Press `Verify` and open `Use webhook`
 
 #### 5. Start to chat!
 - Find the chat bot on LINE, talk to ChatGPT!
