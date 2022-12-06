@@ -9,7 +9,8 @@ Using Python to create a Line Bot script with ChatGPT from OpenAI.
 
 - [Screenshots](#screenshots)
 - [How to Use?](#how-to-use)
-  - [Get Tokens ](#1-get-tokens)
+  - [Setup](#0-setup)
+  - [Get tokens](#1-get-tokens)
   - [Modify config](#2-modify-config)
   - [Run Flask](#3-run-flask)
   - [Deploy](#4-deploy)
